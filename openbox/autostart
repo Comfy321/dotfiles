@@ -1,0 +1,4 @@
+feh --bg-scale ~/Media/Pictures/Wallpapers &
+tint2 &
+./scripts/dzen/thedzen
+
