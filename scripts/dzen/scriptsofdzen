@@ -1,0 +1,16 @@
+#!/bin/sh
+###for my little netbook
+
+FG='#999999'
+BG='#231f20'
+
+conky | dzen2 -e - -h '12' -w '345' -ta l -fg $FG -bg $BG -fn $FONT -x 660 -y 0
+
+####conkyrc
+out_to_console yes
+update_interval 1
+total_run_times 0
+use_spacer none
+#9e5066
+TEXT
+^fg(\#b84290) ^i(/home/tehpwnz/icons/temp.xbm) ^fg(\#7b3d93)${execi 3 /home/tehpwnz/Scripts/tmp.pl} ${if_empty ${exec awk '{print $2}' /proc/acpi/ac_adapter/AC0/state | grep 'on-line'}}^fg(\#55b667) ^i(/home/tehpwnz/icons/bat_full_01.xbm)${else}^fg(\#6983be)^i(/home/tehpwnz/icons/ac_01.xbm)${endif} ^fg(\#c1d43c) ${battery} ^fg(\#45536e)^i(/home/tehpwnz/icons/net_down_02.xbm) ^fg(\#f3a050) ${downspeedf wlan0} k/s ^fg(\#ce4c33) ${totaldown wlan0} ^fg(\#bd3e41)^i(/home/tehpwnz/icons/clock.xbm) ^fg(\#af4d98)${time %a %d %b %H:%M %P}
