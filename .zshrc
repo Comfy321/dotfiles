@@ -10,6 +10,7 @@ alias s='sudo'
 alias install='sudo pacman -S'
 alias aursearch='trizen -Ss'
 alias aurinstall='trizen -S'
+alias update='sudo pacman -Syu'
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
