@@ -1,11 +1,19 @@
 Hello!
-i''m Pyxel.
+
+
+I'm Pyxel.
+
+
 Here are my dotfiles, for anyone interested.
-Most are OC, but there are a few that are stolen.
-THE STARTPAGE IS NOT BY ME
-!!!IT IS A MODIFIED VERSION OF 
+
+
+
+!!! 
+THE STARTPAGE IS NOT BY ME 
+IT IS A MODIFIED VERSION OF 
 https://github.com/Usuka/Homepage
-BY USUKA!!!
+BY USUKA
+!!!
 
 
 TODO: add screenshots.
