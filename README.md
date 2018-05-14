@@ -1,19 +1,11 @@
-Hello!
 
 
-I'm Pyxel.
+All my dotfiles. I currently use i3gaps, manjaro, and urxvt.
 
-
-Here are my dotfiles, for anyone interested.
-
-
-
-!!! 
-THE STARTPAGE IS NOT BY ME 
-IT IS A MODIFIED VERSION OF 
+The start page is a modified version of 
 https://github.com/Usuka/Homepage
-BY USUKA
-!!!
 
 
-TODO: add screenshots.
+Here are some screenshots from a while back:
+https://imgur.com/gallery/CUf29
+.
